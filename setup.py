@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="url-to-link",
+    name="url-to-desktop",
     version="1.0.0",
     install_requires=["pyfiglet>=0.8",
                       "fire>=0.2.1"],
@@ -33,5 +33,5 @@ setup(
         "License :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points={"console_scripts": ["url-to-link = src.main:main"]},
+    entry_points={"console_scripts": ["url-to-desktop = src.conversor:main"]},
 )

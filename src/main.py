@@ -1,6 +1,6 @@
 import fire
 from pyfiglet import Figlet
-from src.conversor import url_to_desktop
+from src.conversor import main
 
 
 def print_logo(text_logo):
@@ -10,4 +10,4 @@ def print_logo(text_logo):
 
 if __name__ == '__main__':
     print_logo("url -> desktop")
-    fire.Fire(url_to_desktop)
+    fire.Fire(main)

@@ -2,7 +2,7 @@ import os
 from typing import List, Optional
 
 
-def url_to_desktop(path: Optional[str] = None) -> None:
+def main(path: Optional[str] = None) -> None:
     if path is None:
         path = os.getcwd()
         
