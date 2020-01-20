@@ -1,5 +1,6 @@
 # url-to-desktop
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a85c79e5dac14a51883f8de2aa7cd6d9)](https://app.codacy.com/manual/xandao6/url-to-dektop?utm_source=github.com&utm_medium=referral&utm_content=xandao6/url-to-dektop&utm_campaign=Badge_Grade_Dashboard)
+[![HitCount](http://hits.dwyl.io/xandao6/url-to-desktop.svg)](http://hits.dwyl.io/xandao6/url-to-desktop)
 
 It is a command line software through which you can convert .url files, used in Windows, into .desktop files used in linux.
 
