@@ -1,5 +1,4 @@
 # url-to-desktop
-
 It is a command line software through which you can convert .url files, used in Windows, into .desktop files used in linux.
 
 ---
@@ -29,6 +28,6 @@ url-to-desktop /path/
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[![License](https://img.shields.io/github/license/xandao6/url-to-desktop?style=for-the-badge)](https://github.com/xandao6/url-to-dektop/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/xandao6/url-to-desktop?style=for-the-badge)](https://github.com/xandao6/url-to-dektop/blob/master/LICENSE)
 
 ***If you like the project, support us by star***
