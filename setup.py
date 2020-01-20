@@ -30,7 +30,6 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3 :: Only",
-        "License :: MIT License",
         "Operating System :: OS Independent",
     ],
     entry_points={"console_scripts": ["url-to-desktop = src.conversor:main"]},
