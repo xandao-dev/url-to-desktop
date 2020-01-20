@@ -1,6 +1,4 @@
-import os
-import shutil
-import fire
+import os, shutil, fire
 from typing import List, Optional
 from pyfiglet import Figlet
 
@@ -13,6 +11,7 @@ def main(path: Optional[str] = None) -> None:
 def __convert(path: Optional[str] = None) -> None:
     if path is None:
         path = os.getcwd()
+
     try:
         url_list_path = __get_url_files_path(path)
         url_filenames = __get_url_filenames_without_extension(url_list_path)
@@ -48,7 +47,7 @@ def __get_url_filenames_without_extension(
 
 
 def __create_old_url_folder(
-    path: Optional[str] = None,
+    path: str,
     url_list_path: List[str]
 ) -> str:
     if len(url_list_path) <= 0:
@@ -64,7 +63,7 @@ def __create_old_url_folder(
 
 
 def __copy_url_files_to_old_url_folder(
-    path: Optional[str] = None,
+    path: str,
     url_list_path: List[str],
     old_url_folder_name: str
 ) -> None:
