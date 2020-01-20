@@ -14,7 +14,7 @@ def __convert(path: Optional[str] = None) -> None:
 
     try:
         url_list_path = __get_url_files_path(path)
-        exit_if_no_files()
+        exit_if_no_files(url_list_path)
         url_filenames = __get_url_filenames_without_extension(url_list_path)
         old_url_folder_name = __create_old_url_folder(path, url_list_path)
         __copy_url_files_to_old_url_folder(
