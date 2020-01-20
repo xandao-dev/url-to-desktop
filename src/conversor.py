@@ -14,6 +14,7 @@ def __convert(path: Optional[str] = None) -> None:
 
     try:
         url_list_path = __get_url_files_path(path)
+        exit_if_no_files()
         url_filenames = __get_url_filenames_without_extension(url_list_path)
         old_url_folder_name = __create_old_url_folder(path, url_list_path)
         __copy_url_files_to_old_url_folder(
@@ -37,6 +38,12 @@ def __get_url_files_path(path: str) -> List[str]:
     return url_list_path
 
 
+def exit_if_no_files(url_list_path: List[str]) -> None:
+    if len(url_list_path) <= 0:
+        print('No URL to convert!')
+        exit()
+
+
 def __get_url_filenames_without_extension(
     url_list_path: List[str]
 ) -> List[str]:
@@ -50,9 +57,6 @@ def __create_old_url_folder(
     path: str,
     url_list_path: List[str]
 ) -> str:
-    if len(url_list_path) <= 0:
-        return
-
     if path is None:
         path = os.getcwd()
 
