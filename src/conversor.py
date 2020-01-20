@@ -5,7 +5,7 @@ from pyfiglet import Figlet
 
 def main(path: Optional[str] = None) -> None:
     __print_logo('url - desktop')
-    __convert(path)
+    fire.Fire(__convert)
 
 
 def __convert(path: Optional[str] = None) -> None:
@@ -104,7 +104,3 @@ def __change_url_to_desktop(
         # Rename the file from .url to .desktop
         os.rename(
             file_path, f'{os.path.join(os.path.dirname(file_path),filename)}.desktop')
-
-
-if __name__ == '__main__':
-    fire.Fire(main)
