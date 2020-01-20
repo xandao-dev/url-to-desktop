@@ -16,8 +16,8 @@ setup(
     author_email="alexandrecalilmf@gmail.com",
     license="MIT",
     python_requires=">=3.6",
-    url="https://github.com/xandao6/URL-to-LINK",
-    download_url="",
+    url="https://github.com/xandao6/url-to-desktop",
+    download_url="https://pypi.org/project/url-to-desktop/",
     keywords=[
         "url",
         "link",
