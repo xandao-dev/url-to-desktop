@@ -1,14 +1,15 @@
 import os, shutil
+import fire
 from typing import List, Optional
 from pyfiglet import Figlet
 
 
-def __print_logo(text_logo):
-    figlet = Figlet(font='slant')
-    print(figlet.renderText(text_logo))
+def main(path: Optional[str] = None) -> None:
+    __print_logo('url - desktop')
+    __convert(path)
 
 
-def convert(path: Optional[str] = None) -> None:
+def __convert(path: Optional[str] = None) -> None:
     if path is None:
         path = os.getcwd()
         
@@ -17,6 +18,11 @@ def convert(path: Optional[str] = None) -> None:
     old_url_folder_name = __create_old_url_folder(path, url_list_path)
     __copy_url_files_to_old_url_folder(path, url_list_path, old_url_folder_name)
     __change_url_to_desktop(url_list_path, url_filenames)
+
+
+def __print_logo(text_logo):
+    figlet = Figlet(font='slant')
+    print(figlet.renderText(text_logo))
 
 
 def __get_url_files_path(path: str) -> List[str]:
@@ -74,3 +80,7 @@ def __change_url_to_desktop(url_list_path: List[str], url_filenames: List[str]):
 
         # Rename the file from .url to .desktop
         os.rename(file_path, f'{os.path.join(os.path.dirname(file_path),filename)}.desktop')
+
+
+if __name__ == '__main__':
+    fire.Fire(main)
