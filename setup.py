@@ -32,5 +32,5 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Operating System :: OS Independent",
     ],
-    entry_points={"console_scripts": ["url-to-desktop = src.conversor:main"]},
+    entry_points={"console_scripts": ["url-to-desktop = scripts.conversor:main"]},
 )
