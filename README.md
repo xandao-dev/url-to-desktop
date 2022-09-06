@@ -6,11 +6,11 @@
     It is a command line software through which you can convert .url files, used in Windows, into .desktop files used in linux.
     <br />
 	<br />
-    <a href="https://github.com/xandao6/url-to-desktop"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/xandao-dev/url-to-desktop"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/xandao6/url-to-desktop/issue">Report Bug</a>
+    <a href="https://github.com/xandao-dev/url-to-desktop/issue">Report Bug</a>
     ·
-    <a href="https://github.com/xandao6/url-to-desktop/issues">Request Feature</a>
+    <a href="https://github.com/xandao-dev/url-to-desktop/issues">Request Feature</a>
   </p>
 </p>
 
@@ -45,7 +45,7 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://github.com/xandao6/url-to-desktop">
+  <a href="https://github.com/xandao-dev/url-to-desktop">
     <img src="./images/before-conversion.png"><br>
 	<img src="./images/converting.png"><br>
 	<img src="./images/after-conversion.png"><br>
@@ -85,7 +85,7 @@ pip3 install url-to-desktop
 
 ## Roadmap
 
-See the [open issues](https://github.com/xandao6/url-to-desktop/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/xandao-dev/url-to-desktop/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
@@ -107,6 +107,6 @@ Free software =)
 <!-- CONTACT -->
 ## Contact
 
-Alexandre Calil - [@xandao6](https://www.linkedin.com/in/xandao6/) - alexandrecalilmf@gmail.com
+Alexandre Calil - [Linkedin](https://www.linkedin.com/in/xandao-dev/) - [alexandre@xandao.dev](mailto:alexandre@xandao.dev)
 
-Project Link: [https://github.com/xandao6/url-to-desktop](https://github.com/xandao6/url-to-desktop)
+Project Link: [https://github.com/xandao-dev/url-to-desktop](https://github.com/xandao-dev/url-to-desktop)
